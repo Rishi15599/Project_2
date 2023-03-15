@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.header{
+    height: 20vh;
+    color: blueviolet;
+}
+.header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+font-weight: 800;
+padding-top: 2%;
+padding-left: 37%;
+}
+
+
+
+
+.Login{
+    display: flex;
+    height: 80vh;  
+}
+
+.Teacher{
+    background-color: lightblue;
+    width: 50%;
+}
+
+.Teacher div button{
+    width: 40%;
+    height: 80px;
+    margin-top: 40%;
+    margin-left: 40%;
+    border-radius: 10%;
+    background-color: lightcoral;
+}
+.Teacher div button:hover{
+    background-color: aliceblue;
+
+}
+.Teacher div button a{
+    font-size: 300%;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Teacher div button a:hover{
+    color: lightcoral;
+}
+
+
+
+
+
+.student{
+    background-color: lightgrey;
+    width: 50%;
+}
+.student div button{
+    width: 40%;
+    height: 80px;
+    margin-top: 40%;
+    margin-left: 20%;
+    border-radius: 10%;
+    background-color: lightcoral;
+}
+.student div button:hover{
+    background-color: aliceblue;
+}
+.student div button a{
+    font-size: 300%;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.student div button a:hover{
+    color: lightcoral;
+}
